@@ -1,7 +1,57 @@
-.shopTitle {
-    margin-top: 100px;
+.shop {
+    margin-top: 200px;
+}
+.welcome-container {
+    display: flex;
+    justify-content: left;
+}
+.welcomeText {
     text-align: center;
     font-size: 40px;
+    margin-left: 100px;
+    padding-left: 100px;
+
+    
+}
+.welcomeText p {
+    font-size:large;
+}
+.button {
+    font-size: large;
+    font-weight: 400;
+    color: white;
+    background-color: red;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+.manImage {
+    width: 140%;
+    height: auto;
+    /* margin-right: 20px; */
+}
+.shopTitle {
+    text-align: center;
+    font-size: 40px;
+
+}
+.explore {
+    color:rgb(255, 255, 255);
+    background-color: gray;
+   text-align: center;
+    height: 100px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.explore h1 {
+    margin-top: 20px;
 }
 
 .products {
