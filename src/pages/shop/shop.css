@@ -1,3 +1,4 @@
+/* Default styles for all devices */
 .shop {
     margin-top: 200px;
 }
@@ -10,11 +11,9 @@
     font-size: 40px;
     margin-left: 100px;
     padding-left: 100px;
-
-    
 }
 .welcomeText p {
-    font-size:large;
+    font-size: large;
 }
 .button {
     font-size: large;
@@ -25,7 +24,6 @@
     border-radius: 20px;
     border: none;
 }
-
 .button:hover {
     background-color: black;
     color: white;
@@ -33,17 +31,16 @@
 .manImage {
     width: 140%;
     height: auto;
-    /* margin-right: 20px; */
 }
+
 .shopTitle {
     text-align: center;
     font-size: 40px;
-
 }
 .explore {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     background-color: gray;
-   text-align: center;
+    text-align: center;
     height: 100px;
     width: 80%;
     margin: 20px auto;
@@ -52,6 +49,30 @@
 }
 .explore h1 {
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .shop {
+        margin-top: 100px; 
+    }
+    .welcome-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .welcomeText {
+        margin-left: 0;
+        padding-left: 0; 
+    }
+    .manImage {
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+    .shopTitle {
+        font-size: 30px; 
+    }
+    .explore {
+        width: 100%; 
+    }
 }
 
 .products {
